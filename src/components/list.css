@@ -1,0 +1,104 @@
+#listDiv{
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+#listHeader{
+    width: 100%;
+    background-color: #1fab89;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    color: #d7fbe8 ;
+}
+
+#search{
+    border: none;
+    margin: 10px;
+    width: 60%;
+    max-width: 300px;
+    height: 18px;
+    float: right;
+    text-align: right;
+    background-color: #1fab89;
+    background-image: url("../imgs/search.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#listNav{
+    margin: 10px auto;
+    width: 320px;
+    height: 110px;
+}
+
+.linkBtn{
+    margin: 5px ;
+    display: block;
+    width: 95px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-weight: bold;
+}
+
+.linkBtn span{
+    color: #62d2a2;
+}
+
+.englishBlock{
+    margin: 15px auto;
+    width: 95%;
+    min-width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #9df3c4;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.speaker{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-image: url("../imgs/speakIcon.png");
+    background-size: 20px;
+    border: none;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.speaker:active{
+    background-image: url("../imgs/speakIconOn.png");
+}
+
+.englishBlock span{
+    width: 100px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.overBlock{
+    position: absolute;
+    transition: all 0.2s;
+    width: 1000px;
+}
+
+.english{
+    text-indent: 10px;
+    float: left;
+}
+
+.hangul{
+    float: right;
+}
